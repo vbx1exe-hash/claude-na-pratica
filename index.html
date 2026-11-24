@@ -31,6 +31,7 @@ a{color:inherit}img{max-width:100%;display:block}
 .marca{font-stretch:125%;font-weight:900;font-size:20px;letter-spacing:-.02em;text-decoration:none}.marca b{color:var(--acc)}
 .topo{position:fixed;inset:12px 12px auto 12px;z-index:50;border-radius:20px;background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,0) 60%),rgba(22,21,20,.6);-webkit-backdrop-filter:blur(22px) saturate(180%);backdrop-filter:blur(22px) saturate(180%);box-shadow:inset 0 1px 0 var(--glass-edge),inset 0 0 0 1px var(--glass-brd),0 10px 30px rgba(0,0,0,.3)}
 .topo .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:62px}
+.topo .wrap>.btn{flex:none;white-space:nowrap}
 section{padding:96px 0}
 .sec-hd{display:flex;flex-direction:column;gap:14px;margin-bottom:40px}
 footer{border-top:1px solid var(--glass-brd);padding:32px 0;color:var(--dim);font-size:14px}
@@ -86,13 +87,13 @@ details p{margin:0 0 18px;color:var(--mut)}
   <span class="eyebrow">Novo curso</span>
   <h1 class="h">Claude na <span class="tag">Prática</span></h1>
   <p class="lead">Aprenda a usar o Claude de verdade: como a IA funciona, prompts que dão resultado, artefatos, conectores, agentes e como ganhar dinheiro com IA, prospectando clientes e criando sistemas com o Claude Code.</p>
-  <div class="video glass"><img src="acesso-7f3c2a9e41/videos/M1A1.jpg" alt=""><div class="v-in"><span class="play"><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg></span><span>Vídeo de apresentação <span class="preencher">[PREENCHER]</span></span></div></div>
+  <div class="video glass"><video controls playsinline preload="metadata" poster="apresentacao.jpg" src="apresentacao.mp4" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000"></video></div>
 </div></section>
 
 <section class="preco" id="preco"><div class="wrap"><div class="box glass">
   <h2 class="h h2">Comece hoje a usar o Claude <span class="tag">de verdade.</span></h2>
   <p class="lead" style="margin-top:12px">Acesso a todos os módulos, apostilas em PDF e prompts prontos, com 7 dias de garantia.</p>
-  <div class="valor"><span class="un">R$</span><span class="n">00</span></div>
+  <div class="valor"><span class="un">R$</span><span class="n">19,90</span></div>
   <div class="cond">pagamento único</div>
   <ul class="benef"><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>10 módulos</span></li><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>10 videoaulas</span></li><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>17 prompts prontos</span></li><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>17 tarefas práticas</span></li><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Apostila em PDF de cada módulo</span></li><li><svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Acesso pela Cakto</span></li></ul>
   <a class="btn pri" href="#preco">Quero aprender <svg  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
@@ -125,7 +126,7 @@ details p{margin:0 0 18px;color:var(--mut)}
 </main>
 <footer><div class="wrap"><span>© <span id="ano"></span> Vitor Emanuel. Empresa Inteligente, NuRec Company e Layer Studio são marcas de seus titulares.</span>
 <nav><a href="legal/privacidade.html">Política de Privacidade</a><a href="legal/termos.html">Termos de Uso</a><a href="legal/reembolso.html">Política de Reembolso</a></nav></div></footer>
-<div class="barra-cel glass" id="barraCel"><div><b>R$ 00</b><small>pagamento único</small></div><a class="btn pri sm" href="#preco">Quero aprender</a></div>
+<div class="barra-cel glass" id="barraCel"><div><b>R$ 19,90</b><small>pagamento único</small></div><a class="btn pri sm" href="#preco">Quero aprender</a></div>
 <script>
 document.getElementById('ano').textContent=new Date().getFullYear();
 const bc=document.getElementById('barraCel'),pr=document.getElementById('preco');
